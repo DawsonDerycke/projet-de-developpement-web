@@ -4,18 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<style>
-    #image{
-        background: url(image/image1.jpg);
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <style>
+        #image{
+        width: 250px;
+        height: 250px;
+        background: url(bases/images/image.jpeg);
+        background-repeat: no-repeat;
         border-radius: 9px;
-    }
-</style>
+        }
+    </style>
+</head>
+
 <body>
     <marquee>
-        <h1 style="color:red;"> Message </h1>
+        <h1 style="color:red;"> Initiation aux librairies </h1>
     </marquee>
+    <button id="bouton-bleu" type="button" class="btn btn-primary">Primary</button>
     <div id="image"></div>
+
+    <table class="table">
+          <tr>
+            <th scope="col">Nom</th>
+            <th scope="col">Prénom</th>
+            <th scope="col">Date de naissance</th>
+          </tr>
+        <tbody>
+          <tr>
+            <td>Otto</td>
+            <td>Mark</td>
+            <td>2000-01-01</td>
+          </tr>
+          <tr>
+            <td>Thornton</td>
+            <td>Jacob</td>
+            <td>2000-01-01</td>
+          </tr>
+          <tr>
+            <td>the Bird</td>
+            <td>Larry</td>
+            <td>2000-01-01</td>
+          </tr>
+        </tbody>
+      </table>
+
+    <script src="bootstrap.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
