@@ -18,18 +18,19 @@ document.querySelectorAll()
 */
 
 const button = document.getElementById('bouton-bleu');
-
-if(button != null){
-button.addEventListener('click', function(){
-    alert('TEST');
-}); 
-}
+const table = document.querySelector('table');
 const btns = document.getElementsByClassName('btn');
 
 btns[0].addEventListener('click', function(){
     alert('MESSAGE');
 });
 
-const table = document.querySelector('table');
+if(button != null){
+button.addEventListener('click', function(){
+    alert('TEST');
+}); 
+}
 
-table.style.display = 'none';
+
+
+table.style.display = '';
