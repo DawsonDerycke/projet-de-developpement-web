@@ -22,15 +22,19 @@ const table = document.querySelector('table');
 const btns = document.getElementsByClassName('btn');
 
 btns[0].addEventListener('click', function(){
-    alert('MESSAGE');
+    // alert('MESSAGE');
+    table.style.display = '';
 });
 
 if(button != null){
 button.addEventListener('click', function(){
-    alert('TEST');
+    table.tr.remove();
+    // alert('TEST');
 }); 
 }
 
+/*$('#bouton-bleu').on('click', function(){
+    $('table').find('tr').last().remove();
+});
 
-
-table.style.display = '';
+*/
