@@ -1,11 +1,6 @@
 const img = document.getElementById('car');
-
+let i = 0;
 setInterval(function(){
-    img.style.marginTop ="50px";
+    img.style.top = i % 2 === 0 ? "50px" : "100px";
+    i++;
 }, 500);
-setInterval(function(){
-    img.style.margin ="0px";
-}, 800);
-setInterval(function(){
-    img.style.marginBottom ="50px";
-}, 1300);
